@@ -19,7 +19,7 @@ if st.button("Book Ticket"):
 
         st.success("Ticket booked successfully!")
 
-        st.subheader("*****Booking Details*****")
+        st.subheader("*****Booking Summary*****")
         st.write(f"Customer Name: {customer_name}")
         st.write(f"Movie Title: {movie_title}")
         st.write(f"Show Time: {show_time}")
