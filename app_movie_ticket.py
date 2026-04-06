@@ -14,7 +14,7 @@ seat_type = st.radio("Select Seat Type", ["Standard", "Premium"])
 if st.button("Book Ticket"):
     
     try:
-        if customer_name.strip() == "":
+        if customer_name == "":
             raise ValueError("Customer name cannot be empty!")
 
         st.success("Ticket booked successfully!")
